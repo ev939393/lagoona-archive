@@ -1,1 +1,1 @@
-# Посмотреть проект [&#8658; Lagoona](https://ev939393.github.io/дagoona/)
+# Посмотреть проект [&#8658; Lagoona](https://ev939393.github.io/lagoona/)
