@@ -1,0 +1,59 @@
+@font-face { 
+  font-family: "Muller"; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-display: swap;
+  src: local("Muller"), 
+    url("../assets//fonts/MullerRegular.woff2") format("woff2"), 
+    url("../assets//fonts/MullerRegular.woff") format("woff"); 
+} 
+
+@font-face { 
+  font-family: "Muller"; 
+  font-style: normal; 
+  font-weight: 500; 
+  font-display: swap;
+  src: local("Muller"), 
+    url("../assets//fonts/MullerMedium.woff2") format("woff2"), 
+    url("../assets//fonts/MullerMedium.woff") format("woff"); 
+} 
+
+@font-face { 
+  font-family: "Muller"; 
+  font-style: normal; 
+  font-weight: 700; 
+  font-display: swap;
+  src: local("Muller"), 
+    url("../assets//fonts/MullerBold.woff2") format("woff2"), 
+    url("../assets//fonts/MullerBold.woff") format("woff"); 
+} 
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Muller", sans-serif;  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
